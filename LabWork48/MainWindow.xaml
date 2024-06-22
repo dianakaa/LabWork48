@@ -1,0 +1,23 @@
+﻿<Window x:Class="LabWork48.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LabWork48"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <Label Content="LabWork48"/>
+        <WrapPanel>
+            <Label Content="Имя"/>
+            <TextBox x:Name ="nameTextBox" Width="100"/>
+            <Label Content="Фамилия"/>
+            <TextBox x:Name ="surnameTextBox" Width="100"/>
+            <Label Content="Страна"/>
+            <TextBox x:Name ="countryTextBox" Width="100"/>
+        </WrapPanel>
+        <Button x:Name="AddAuthorButton" Content="Выполнить №2" Click="AddAuthorButton_Click"/>
+
+        <Button x:Name="AddAuthorIdButton" Content="Выполнить №3" Click="AddAuthorIdButton_Click"/>
+    </StackPanel>
+</Window>
